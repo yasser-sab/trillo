@@ -1,0 +1,179 @@
+/*
+COLORS
+
+Primary: #eb2f64
+Primary light: #FF3366
+Primary dark: #BA265D
+
+Grey light 1: #faf9f9
+Grey light 2: #f4f2f2
+Grey light 3: #f0eeee
+Grey light 4: #ccc
+
+Grey dark 1: #333
+Grey dark 2: #777
+Grey dark 3: #999
+
+*/
+
+:root {
+    // colors
+
+    --Primary: #eb2f64;
+    --Primary-light: #FF3366;
+    --Primar-dark: #BA265D;
+
+    --white:#fff;
+
+    --Grey-light-1: #faf9f9;
+    --Grey-light-2: #f4f2f2;
+    --Grey-light-3: #f0eeee;
+    --Grey-light-4: #ccc;
+
+    --Grey-dark-1: #333;
+    --Grey-dark-2: #777;
+    --Grey-dark-3: #999;
+}
+
+*,*::before,*::after {
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+html {
+    font-size: 0.78125vw;
+}
+
+body {
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    height: 100vh;
+    background-image: linear-gradient(to bottom right,var(--Primary-light),var(--Primar-dark));
+    color:var(--Grey-dark-1);
+    font-size: 100%;
+}
+
+@media screen and (max-width:900px){
+    html {
+        font-size: 1.2vw;
+    }
+}
+
+@media screen and (max-width:700px){
+    html {
+        font-size: 1.7vw;
+    }
+}
+
+
+a {
+    color:inherit;
+    display: block;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+svg {
+    display: block;
+}
+
+svg {
+    max-width: 100%;
+}
+
+input[type=text]{
+    border:none;
+    outline: none;
+}
+
+button {
+    border:none;
+}
+
+ul {
+    list-style: none;
+}
+
+p {
+    // font-size: 1.1em;
+    // color:var(--Grey-light-4);
+}
+small {
+    display: block;
+}
+
+h3 {
+    font-size: .8em;
+    text-transform: uppercase;
+    color:var(--Grey-dark-2);
+
+}
+
+time {
+    font-size: .7em;
+}
+
+// start helper classes styles
+
+.flex {
+    display: flex;
+}
+
+.pr {
+    position: relative;
+}
+
+.pa {
+    position: absolute;
+}
+
+.jc-sb {
+    justify-content: space-between;
+}
+
+.ai-c {
+    align-items: center;
+}
+
+.fd-c {
+    flex-direction: column;
+}
+
+.w-f {
+    width: 100%;
+}
+
+.fw-w {
+    flex-wrap: wrap;
+}
+
+.ta-c {
+    text-align: center;
+}
+
+.container {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.fs-b {
+    font-size: 2em;
+}
+
+.button {
+    color:var(--Primary-light);
+    text-decoration: underline;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.button::after {
+    content: " ->";
+}
+
+// end helper classes styles

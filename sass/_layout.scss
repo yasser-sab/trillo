@@ -1,0 +1,93 @@
+// start block 1 styles
+
+    // section 1
+    .b1 {
+        background-color: var(--white);
+    }
+
+    .b1 .container {
+        height: 10vh;
+    }
+
+    .b1__e1 {
+        width: 5em;
+
+    }
+
+    // form
+
+    .b1-b1-b2 {
+        background-color:var(--Grey-light-2);
+        padding: 0 2em;
+        border-radius: 5em;
+    }
+
+    .b1-b1-b2__e1 {
+        padding: 0.7em 0;
+        background-color: inherit;
+    }
+
+    .b1-b1-b2__e1:focus {
+        width: 170px;
+    }
+
+    .b1-b1-b2__e1::placeholder{
+        color:var(--Grey-light-4);
+    }
+
+    .b1-b1-b2-b2-b1 {
+        width: 2em;
+        height: 2em;
+        fill:var(--Grey-light-4);
+    }
+    // form
+
+
+        // section 2
+
+    .b1-b2 {
+        gap:4.5em;
+    }
+
+    .b1-b2__e1 {
+        width: 3em;
+        height: 2.25em;
+        fill:var(--Grey-dark-2)
+    }
+
+    .b1-b2__e1 + span {
+        right: 100%;
+        bottom:100%;
+        transform: translate(100%,50%);
+        border-radius: 100%;
+        background-color: var(--Primary);
+        color: var(--white);
+        padding: .5em;
+        font-size: .6em;
+    }
+
+        // section 3
+
+    .b1-b2-b1 {
+        gap:1em
+
+    }
+
+    .b1-b2-b1__e1 {
+        width: 4em;
+        height: 4em;
+        border-radius: 100%;
+    }
+
+    .b1-b2-b1__e2 {
+        font-size: 1.6rem;
+        color:var(--Grey-dark-2);
+    }
+
+// end block 1 styles
+
+
+
+
+
+
